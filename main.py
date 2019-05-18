@@ -28,11 +28,7 @@ def main():
     # train_complete = pd.read_csv('./data/complete_data.csv')
 
     # List of features that were used
-    features = ['signup_city_name', 'event_name', 'signup_sub_channel',
-                'driver_flow', 'device_os', 'signup_mega_region',
-                'signup_country_name', 'signup_channel', 'email_domain',
-                'is_polymorphed', 'age', 'gender',  'os_category',
-                'launch_date_ms', 'source_description', 'datestr']
+    features = [#hidden]
 
     # Handling categorical columns in data
     for feature in features:
